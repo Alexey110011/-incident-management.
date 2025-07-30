@@ -39,7 +39,7 @@ modules:
 
   - name: incident-management-app-deployer
     type: com.sap.application.content
-    path: gen
+    path: .
     requires:
       - name: incident-management-html5-repo-host
         parameters:
